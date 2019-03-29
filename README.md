@@ -62,5 +62,5 @@ value
 ### Docker usage
 
 ```sh
-docker-compose up dev
+docker-compose up web
 ```
