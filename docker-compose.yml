@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+
+  web:
+    build: .
+    image: annapamma_jekyll
+    ports:
+    - "3000:3000"
+    command: jekyll serve --host=0.0.0.0
+    volumes:
+    - ./:/app/
